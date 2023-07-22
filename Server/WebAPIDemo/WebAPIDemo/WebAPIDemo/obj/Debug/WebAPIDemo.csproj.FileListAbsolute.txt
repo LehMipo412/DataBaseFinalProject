@@ -1,0 +1,220 @@
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\WebAPIDemo.dll.config
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\WebAPIDemo.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\WebAPIDemo.pdb
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csc.exe
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csc.exe.config
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csc.rsp
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csi.exe
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csi.exe.config
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csi.rsp
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.AppContext.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Collections.Immutable.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Console.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Globalization.Calendars.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.IO.Compression.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.IO.FileSystem.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Net.Http.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Net.Sockets.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Reflection.Metadata.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.ValueTuple.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Xml.XPath.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\vbc.exe
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\vbc.exe.config
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\vbc.rsp
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\VBCSCompiler.exe
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\VBCSCompiler.exe.config
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Antlr3.Runtime.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Newtonsoft.Json.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Net.Http.Formatting.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Helpers.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Http.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Http.WebHost.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Mvc.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Optimization.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Razor.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.Deployment.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.Razor.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\WebGrease.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Newtonsoft.Json.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Net.Http.Formatting.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Helpers.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Http.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Http.WebHost.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Mvc.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Optimization.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Razor.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.Deployment.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.Razor.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Antlr3.Runtime.pdb
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.csproj.AssemblyReference.cache
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.csproj.CoreCompileInputs.cache
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.csproj.CopyComplete
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.pdb
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\BouncyCastle.Crypto.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Google.Protobuf.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Compression.LZ4.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Compression.LZ4.Streams.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Hash.xxHash.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\MySql.Data.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Buffers.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.IO.Pipelines.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Memory.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Numerics.Vectors.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Threading.Tasks.Extensions.dll
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\BouncyCastle.Crypto.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Google.Protobuf.pdb
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Google.Protobuf.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Compression.LZ4.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Compression.LZ4.Streams.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Hash.xxHash.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\MySql.Data.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Buffers.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.IO.Pipelines.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Memory.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Numerics.Vectors.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Ido\Work\Teaching\Tiltan\DB\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\WebAPIDemo.dll.config
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\WebAPIDemo.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\WebAPIDemo.pdb
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csc.exe
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csc.exe.config
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csc.rsp
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csi.exe
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csi.exe.config
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\csi.rsp
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.AppContext.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Console.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.IO.Compression.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Net.Http.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Net.Sockets.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.ValueTuple.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\vbc.exe
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\vbc.exe.config
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\vbc.rsp
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\VBCSCompiler.exe
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Antlr3.Runtime.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\BouncyCastle.Crypto.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Google.Protobuf.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Compression.LZ4.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Hash.xxHash.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\MySql.Data.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Newtonsoft.Json.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Buffers.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.IO.Pipelines.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Memory.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Net.Http.Formatting.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Numerics.Vectors.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Helpers.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Http.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Http.WebHost.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Mvc.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Optimization.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Razor.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\WebGrease.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\BouncyCastle.Crypto.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Google.Protobuf.pdb
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Google.Protobuf.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Compression.LZ4.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\K4os.Hash.xxHash.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\MySql.Data.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Buffers.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.IO.Pipelines.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Memory.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Numerics.Vectors.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Newtonsoft.Json.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Net.Http.Formatting.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Helpers.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Http.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Http.WebHost.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Mvc.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Optimization.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.Razor.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\System.Web.WebPages.Razor.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Antlr3.Runtime.pdb
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.csproj.AssemblyReference.cache
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.csproj.CoreCompileInputs.cache
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.csproj.CopyComplete
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.dll
+C:\Users\barbe\Downloads\Class Example\Server\WebAPIDemo\WebAPIDemo\WebAPIDemo\obj\Debug\WebAPIDemo.pdb

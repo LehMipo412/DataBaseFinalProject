@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/Triviia Attempt 1/Library
+/Triviia Attempt 1/UserSettings
+/Triviia Attempt 1/Temp
+/Triviia Attempt 1/Logs
