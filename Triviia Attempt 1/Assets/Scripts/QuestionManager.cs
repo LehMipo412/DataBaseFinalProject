@@ -6,17 +6,19 @@ using UnityEngine.Networking;
 public class QuestionManager : MonoBehaviour
 {
 
-    [SerializeField] TMPro.TMP_Text Question_text;
-    [SerializeField] TMPro.TMP_Text Ans1_text;
-    [SerializeField] TMPro.TMP_Text Ans2_text;
-    [SerializeField] TMPro.TMP_Text Ans3_text;
-    [SerializeField] TMPro.TMP_Text Ans4_text;
+    [SerializeField] public TMPro.TMP_Text Question_text;
+    [SerializeField] public TMPro.TMP_Text Ans1_text;
+    [SerializeField] public TMPro.TMP_Text Ans2_text;
+    [SerializeField] public TMPro.TMP_Text Ans3_text;
+    [SerializeField] public TMPro.TMP_Text Ans4_text;
+    [SerializeField] public int currentQuestion;
 
     // Start is called before the first frame update
     void Start()
     {
-
-        StartCoroutine(GetQuestion(3));
+        currentQuestion = 0;
+        InstantiateQuestion();
+        
     }
 
 
@@ -39,7 +41,8 @@ public class QuestionManager : MonoBehaviour
 
 
 
-            Question question = JsonUtility.FromJson<Question>(www.downloadHandler.text); 
+            Question question = JsonUtility.FromJson<Question>(www.downloadHandler.text);
+            Debug.Log(question.text);
             if (question != null)
             {
                 Question_text.text = question.text;
@@ -50,6 +53,11 @@ public class QuestionManager : MonoBehaviour
                 Debug.Log(question.correctID.ToString());
             }
         }
+    }
+    public void InstantiateQuestion()
+    {
+        currentQuestion++;
+        StartCoroutine(GetQuestion(currentQuestion));
     }
 
 }
