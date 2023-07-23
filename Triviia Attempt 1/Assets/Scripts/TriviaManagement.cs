@@ -5,7 +5,7 @@ using TMPro;
 
 public class TriviaManagement : MonoBehaviour
 {
-    
+
     public GameObject[] questions;
     public AnAnswer answerScript;
     public QuestionManager theQuestionManager;
@@ -20,7 +20,7 @@ public class TriviaManagement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
@@ -29,19 +29,19 @@ public class TriviaManagement : MonoBehaviour
         answerScript.gameObject.SetActive(false);
         index++;
 
-        answerScript = questions[index].GetComponent<AnAnswer>();
-        answerScript.SetText(theQuestionManager.Question_text.text);
-        answerScript.answers[0].GetComponent<TMP_Text>().text = theQuestionManager.Ans1_text.text;
-        answerScript.answers[1].GetComponent<TMP_Text>().text = theQuestionManager.Ans2_text.text;
-        answerScript.answers[2].GetComponent<TMP_Text>().text = theQuestionManager.Ans3_text.text;
-        answerScript.answers[3].GetComponent<TMP_Text>().text = theQuestionManager.Ans4_text.text;
+        //answerScript = questions[index].GetComponent<AnAnswer>();
+        //answerScript.SetText(theQuestionManager.Question_text.text);
+        //answerScript.answers[0].GetComponent<TMP_Text>().text = theQuestionManager.Ans1_text.text;
+        //answerScript.answers[1].GetComponent<TMP_Text>().text = theQuestionManager.Ans2_text.text;
+        //answerScript.answers[2].GetComponent<TMP_Text>().text = theQuestionManager.Ans3_text.text;
+        //answerScript.answers[3].GetComponent<TMP_Text>().text = theQuestionManager.Ans4_text.text;
 
-      //  theQuestionManager.InstantiateQuestion(index + 1);
+        //  theQuestionManager.InstantiateQuestion(index + 1);
         Debug.Log(index);
         Debug.Log(theQuestionManager.Question_text.text);
-       
+
         answerScript.gameObject.SetActive(true);
 
-        
+
     }
 }

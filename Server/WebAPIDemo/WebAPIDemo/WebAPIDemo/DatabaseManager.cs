@@ -39,7 +39,7 @@ namespace WebAPIDemo
             try
             {
                 Connect();
-                string query = "INSERT INTO players(Name) values('" + name  + "')";
+                string query = "INSERT INTO player(Name) values('" + name  + "')";      
                 cmd = new MySqlCommand(query, con);
                 reader = cmd.ExecuteReader();
                 result = "Success";
@@ -87,7 +87,7 @@ namespace WebAPIDemo
             {
                 Connect();
                 
-                string query = "SELECT QuestionText FROM question WHERE QuestionID =" + QuestionID;
+                string query = "SELECT * FROM question WHERE QuestionID =" + QuestionID;
                 cmd = new MySqlCommand(query, con);
                 reader = cmd.ExecuteReader();
                 if (reader.Read())
@@ -99,6 +99,7 @@ namespace WebAPIDemo
                     
                     
                     question.text = reader.GetString("QuestionText");
+                    question.correctID = reader.GetInt32("CorrectAnswerID");
                     
 
                     
@@ -127,7 +128,7 @@ namespace WebAPIDemo
         {
             Connect();
             //string query = "SELECT AnswerText FROM answers WHERE ContainedQuestionID = " + QuestionID;
-            string query = "SELECT AnswerText FROM answers WHERE ContainedQuestionID = " + QuestionID;
+            string query = "SELECT * FROM answers WHERE ContainedQuestionID = " + QuestionID;
             cmd = new MySqlCommand(query, con);
             reader = cmd.ExecuteReader();
             
@@ -141,22 +142,27 @@ namespace WebAPIDemo
                 //string mewo = reader.GetValue(1).ToString();
                 if (question.ans1 == null)
                 {
-                    question.ans1 = reader.GetString(0);
+                    question.ans1 = reader.GetString("AnswerText");
+                    question.answersID[0] = reader.GetInt32("AnswerID");
                     continue;
                 }
                 if (question.ans2 == null)
                 {
-                    question.ans2 = reader.GetString(0);
+                    question.ans2 = reader.GetString("AnswerText");
+                    question.answersID[1] = reader.GetInt32("AnswerID");
+
                     continue;
                 }
                 if (question.ans3 == null)
                 {
-                    question.ans3 = reader.GetString(0);
+                    question.ans3 = reader.GetString("AnswerText");
+                    question.answersID[2] = reader.GetInt32("AnswerID");
                     continue;
                 }
                 if (question.ans4 == null)
                 {
-                    question.ans4 = reader.GetString(0);
+                    question.ans4 = reader.GetString("AnswerText");
+                    question.answersID[3] = reader.GetInt32("AnswerID");
                     continue;
                 }
                 //question.ans1 = ansArr[0];

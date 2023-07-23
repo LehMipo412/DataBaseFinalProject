@@ -14,5 +14,6 @@ namespace WebAPIDemo
         public string ans3;
         public string ans4;
         public int correctID;
+        public int[] answersID = new int[4];
     }
 }

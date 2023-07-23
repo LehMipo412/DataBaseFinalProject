@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\QuestionManager.cs" />
     <Compile Include="Assets\Scripts\UpdatePlayer.cs" />
     <Compile Include="Assets\Scripts\AnAnswer.cs" />
+    <Compile Include="Assets\Scripts\LoginPageDone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

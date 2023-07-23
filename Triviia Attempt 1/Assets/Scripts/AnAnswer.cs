@@ -6,7 +6,7 @@ using TMPro;
 public class AnAnswer : MonoBehaviour
 {
 
-    public GameObject[] answers;
+    
     public TMP_Text theText;
     // Start is called before the first frame update
     void Start()
