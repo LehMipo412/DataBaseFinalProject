@@ -15,6 +15,8 @@ namespace WebAPIDemo
         MySqlDataReader reader;
         Question question = new Question();
         string[] ansArr = new string[4];
+        string playerName;
+        
 
         private void Disconnect()
         {
@@ -32,16 +34,17 @@ namespace WebAPIDemo
                 con.Close();
             }
         }
-
-        internal string SetPlayer(string name)
+        public string SetScore(int score, string name)
         {
             string result;
             try
             {
                 Connect();
-                string query = "INSERT INTO player(Name) values('" + name  + "')";      
+
+                string query = "UPDATE player SET Score ="+score+" WHERE Name ='"+name+"'";
+
                 cmd = new MySqlCommand(query, con);
-                reader = cmd.ExecuteReader();
+               reader = cmd.ExecuteReader();
                 result = "Success";
 
             }
@@ -52,7 +55,63 @@ namespace WebAPIDemo
             }
             return result;
         }
+        internal string SetPlayer(string name)
+        {
+            string result;
+            try
+            {
+                Connect();
+                
+                string query = "INSERT INTO player(Name) values('" + name  + "')";
+               
+                cmd = new MySqlCommand(query, con);
+                reader = cmd.ExecuteReader();
+                result = "Success";
+                playerName = name;
+            }
+            catch
+            {
+                Disconnect();
+                return "Failure";
+            }
+            return result;
+        }
+        public bool CanStartGame()
+        {
+            int counter = 0;
+            try
+            {
+                Connect();
 
+                string query = "SELECT * FROM player WHERE name IS NOT NULL";
+
+                cmd = new MySqlCommand(query, con);
+                reader = cmd.ExecuteReader();
+                foreach(var player in reader)
+                {
+                    counter++;
+                }
+
+                if(counter%2 == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+               
+
+            }
+            catch
+            {
+                Disconnect();
+                return false;   
+            }
+           
+
+            
+        }
         public string GetPlayerName(int playerId)
         {
             try

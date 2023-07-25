@@ -12,17 +12,23 @@ public class QuestionManager : MonoBehaviour
     [SerializeField] public TMPro.TMP_Text Ans3_text;
     [SerializeField] public TMPro.TMP_Text Ans4_text;
     [SerializeField] public TMPro.TMP_Text scoreText;
+    [SerializeField] public TMPro.TMP_Text timerText;
     public string startingScore;
+    public string timerStringStartingPoint;
     public int score;
+    public float questionTimer;
     public Question question;
     [SerializeField] public int theCorrectAnswerID;
     public GameObject[] answers;
+    
 
     [SerializeField] public int currentQuestion;
 
     // Start is called before the first frame update
     void Start()
     {
+        questionTimer = 10f;
+        timerStringStartingPoint = timerText.text;
         startingScore = scoreText.text;
         score = 0;
         scoreText.text = startingScore + score;
@@ -30,6 +36,19 @@ public class QuestionManager : MonoBehaviour
         InstantiateQuestion();
         
     }
+    private void Update()
+    {
+        questionTimer -= Time.deltaTime;
+        timerText.text = timerStringStartingPoint + (int)questionTimer;
+        if(questionTimer <= 0)
+        {
+            InstantiateQuestion();
+            questionTimer = 10;
+        }
+    }
+
+
+
 
 
     IEnumerator GetQuestion(int id)
@@ -50,7 +69,7 @@ public class QuestionManager : MonoBehaviour
             //Debug.Log(www.downloadHandler.text);
 
 
-
+            questionTimer = 10;
              question = JsonUtility.FromJson<Question>(www.downloadHandler.text);
             //Debug.Log(question.text);
             if (question != null)
@@ -89,6 +108,22 @@ public class QuestionManager : MonoBehaviour
             scoreText.text = startingScore + score;
         }
     }
+    IEnumerator SetScoreToDB()
+    {
+        Debug.Log("Started");
+        UnityWebRequest www = UnityWebRequest.Get("https://localhost:44330/api/Score?Score="+(score+1)+"&name="+LoginPageDone.playerName);
+        Debug.Log("Connected");
+        yield return www.SendWebRequest();
+        Debug.Log("command happened");
+        if (www.result != UnityWebRequest.Result.Success)
+        {
+            Debug.Log(www.error);
+        }
+        else
+        {
+            
+        }
+    }
     public void GiveCorrectIDLocation()
     {
         for (int i = 0; i < question.answersID.Length; i++)
@@ -101,9 +136,12 @@ public class QuestionManager : MonoBehaviour
     }
     public void InstantiateQuestion()
     {
+        Debug.Log("current question: " + currentQuestion);
+        StartCoroutine(SetScoreToDB());
         currentQuestion++;
         if(currentQuestion>5)
         {
+            LoginPageDone.canStartGame = false;
             gameObject.SetActive(false);
         }
         else

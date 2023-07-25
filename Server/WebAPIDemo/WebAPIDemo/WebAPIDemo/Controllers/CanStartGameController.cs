@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace WebAPIDemo.Controllers
 {
-    public class ScoreController : ApiController
+    public class CanStartGameController : ApiController
     {
         // GET api/<controller>
         //public IEnumerable<string> Get()
@@ -16,15 +16,17 @@ namespace WebAPIDemo.Controllers
         //}
 
         // GET api/<controller>/5
-        public string Get( int score, string name)
+        public bool Get()
         {
-            DatabaseManager dbMan = new DatabaseManager();
-           string res = dbMan.SetScore(score,name);
-            //actually do that
-            return res;
+            DatabaseManager dbman = new DatabaseManager();
+            bool canStart = dbman.CanStartGame();
+            return canStart;
         }
 
-
+        // POST api/<controller>
+        public void Post([FromBody] string value)
+        {
+        }
 
         // PUT api/<controller>/5
         public void Put(int id, [FromBody] string value)
