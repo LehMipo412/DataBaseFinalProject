@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Networking;
+using System;
 
 public class LoginPageDone : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class LoginPageDone : MonoBehaviour
     public GameObject LoginPage;
     public GameObject WaitingRoomBoard;
     public GameObject GameBoard;
+    public GameObject triviaManager;
     public static string playerName;
     public bool isSubmitted;
     public static bool canStartGame;
@@ -22,8 +24,10 @@ public class LoginPageDone : MonoBehaviour
         isSubmitted = false;
         
     }
+
+
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         playerName = playerNameInputField.text;
         timer -= Time.deltaTime;
@@ -36,16 +40,25 @@ public class LoginPageDone : MonoBehaviour
                     CheckOtherConnections();
                     timer = 1;
                 }
+                else
+                {
+                    isSubmitted = false;
+                }
             }
         }
-        if (canStartGame == true)
+        if (isSubmitted == true)
         {
-            WaitingRoomBoard.SetActive(false);
-            GameBoard.SetActive(true);
-        }
-        else
-        {
-            GameBoard.SetActive(false);
+            if (canStartGame == true)
+            {
+                WaitingRoomBoard.SetActive(false);
+                GameBoard.SetActive(true);
+
+            }
+            else
+            {
+                GameBoard.SetActive(false);
+
+            }
         }
     }
 
@@ -59,7 +72,9 @@ public class LoginPageDone : MonoBehaviour
         StartCoroutine(SetPlayer());
         isSubmitted = true;
         LoginPage.SetActive(false);
+        triviaManager.SetActive(true);
         WaitingRoomBoard.SetActive(true);
+       
     }
     IEnumerator CanStartGame()
     {

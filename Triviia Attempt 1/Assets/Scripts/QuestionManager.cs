@@ -17,16 +17,26 @@ public class QuestionManager : MonoBehaviour
     public string timerStringStartingPoint;
     public int score;
     public float questionTimer;
+    public int isFinished;
+    public bool canfinish;
     public Question question;
+    public float commandTimer;
     [SerializeField] public int theCorrectAnswerID;
     public GameObject[] answers;
-    
+    public GameObject waitingRoom;
+    public GameObject afterFinish;
+    public GameObject theGameBoard;
+
+
 
     [SerializeField] public int currentQuestion;
 
     // Start is called before the first frame update
     void Start()
     {
+        commandTimer = 1;
+        canfinish = false;
+        isFinished = 0;
         questionTimer = 10f;
         timerStringStartingPoint = timerText.text;
         startingScore = scoreText.text;
@@ -39,15 +49,41 @@ public class QuestionManager : MonoBehaviour
     private void Update()
     {
         questionTimer -= Time.deltaTime;
+        commandTimer -= Time.deltaTime;
+
         timerText.text = timerStringStartingPoint + (int)questionTimer;
         if(questionTimer <= 0)
         {
             InstantiateQuestion();
             questionTimer = 10;
         }
+        if (isFinished == 1)
+        {
+            if (canfinish == false)
+            {
+                
+                if (commandTimer <= 0)
+                {
+                    CheckIfBothFinished();
+                    commandTimer = 1;
+                }
+            }
+            if(canfinish == true)
+            {
+                afterFinish.SetActive(true);
+                
+            }
+        }
     }
 
+    public void CheckIfBothFinished()
+    {
+        StartCoroutine(CanFinishGame());
+    }
+    public void ShowShowwWinner()
+    {
 
+    }
 
 
 
@@ -104,14 +140,14 @@ public class QuestionManager : MonoBehaviour
         if (question.answersID[selectedAnswer] == question.correctID)
         {
             Debug.Log("correct");
-            score++;
+            score+= (int)questionTimer;
             scoreText.text = startingScore + score;
         }
     }
     IEnumerator SetScoreToDB()
     {
         Debug.Log("Started");
-        UnityWebRequest www = UnityWebRequest.Get("https://localhost:44330/api/Score?Score="+(score+1)+"&name="+LoginPageDone.playerName);
+        UnityWebRequest www = UnityWebRequest.Get("https://localhost:44330/api/Score?Score="+(score+1)+"&name="+LoginPageDone.playerName+ "&isFinished="+isFinished);
         Debug.Log("Connected");
         yield return www.SendWebRequest();
         Debug.Log("command happened");
@@ -122,6 +158,23 @@ public class QuestionManager : MonoBehaviour
         else
         {
             
+        }
+    }
+    IEnumerator CanFinishGame()
+    {
+        Debug.Log("Started");
+        UnityWebRequest www = UnityWebRequest.Get("https://localhost:44330/api/CanFinishGame");
+        Debug.Log("Connected");
+        yield return www.SendWebRequest();
+        Debug.Log("command happened");
+        if (www.result != UnityWebRequest.Result.Success)
+        {
+            Debug.Log(www.error);
+        }
+        else
+        {
+            string ans = www.downloadHandler.text;
+            canfinish = bool.Parse(ans);
         }
     }
     public void GiveCorrectIDLocation()
@@ -141,8 +194,11 @@ public class QuestionManager : MonoBehaviour
         currentQuestion++;
         if(currentQuestion>5)
         {
+            isFinished = 1;
+            StartCoroutine(SetScoreToDB());
             LoginPageDone.canStartGame = false;
-            gameObject.SetActive(false);
+            //theGameBoard.SetActive(false);
+            waitingRoom.SetActive(true);
         }
         else
             StartCoroutine(GetQuestion(currentQuestion));

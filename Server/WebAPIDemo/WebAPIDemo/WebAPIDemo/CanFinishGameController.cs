@@ -7,24 +7,24 @@ using System.Web.Http;
 
 namespace WebAPIDemo.Controllers
 {
-    public class ScoreController : ApiController
+    public class CanFinishGameController : ApiController
     {
         // GET api/<controller>
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
+        
 
         // GET api/<controller>/5
-        public string Get( int score, string name,int isFinished)
+        public bool Get()
         {
             DatabaseManager dbMan = new DatabaseManager();
-           string res = dbMan.SetScore(score,name,isFinished);
+            bool res = dbMan.CanFinishGame();
             //actually do that
             return res;
         }
 
-
+        // POST api/<controller>
+        public void Post([FromBody] string value)
+        {
+        }
 
         // PUT api/<controller>/5
         public void Put(int id, [FromBody] string value)

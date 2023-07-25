@@ -34,14 +34,14 @@ namespace WebAPIDemo
                 con.Close();
             }
         }
-        public string SetScore(int score, string name)
+        public string SetScore(int score, string name,int isfinnished)
         {
             string result;
             try
             {
                 Connect();
 
-                string query = "UPDATE player SET Score ="+score+" WHERE Name ='"+name+"'";
+                string query = "UPDATE player SET Score ="+score+ ",IsFinished ="+isfinnished+"  WHERE Name ='" + name+"'";
 
                 cmd = new MySqlCommand(query, con);
                reader = cmd.ExecuteReader();
@@ -111,6 +111,127 @@ namespace WebAPIDemo
            
 
             
+        }
+        public string ShowwWinner()
+        {
+            string name1 = null;
+            string name2 = null;
+            int score1 = 0;
+            int score2 = 0;
+
+            try
+            {
+                Connect();
+
+                string query = "SELECT Name FROM player ORDER BY PlayerID DESC LIMIT 2;";
+
+                cmd = new MySqlCommand(query, con);
+                reader = cmd.ExecuteReader();
+                if (name1 == null)
+                {
+                    name1 = reader.GetString(0);
+                }
+                if (name2 == null)
+                {
+                    name2 = reader.GetString(0);
+                }
+
+                query = "SELECT Score FROM player WHERE Name="+name1+","+name2;
+
+                cmd = new MySqlCommand(query, con);
+                reader = cmd.ExecuteReader();
+
+                if(score1 == 0)
+                {
+                    score1 = reader.GetInt32(0);
+                }
+                if (score2 == 0)
+                {
+                    score2 = reader.GetInt32(0);
+                }
+                if(score1>score2)
+                {
+                    return name1;
+
+                }
+                else
+                {
+
+                    if(score1<score2)
+                    {
+                        return name2;
+                    }
+                    else
+                    {
+                        return "Draw";
+                    }
+
+                }
+                
+
+
+            }
+            catch
+            {
+                
+                Disconnect();
+                return "failure";
+            }
+
+            
+        }
+        public bool CanFinishGame()
+        {
+            string s = null;
+            string s2 = null;
+            int counter1 = 0;
+            int counter2 = 0;
+            try
+            {
+                Connect();
+
+                string query = "SELECT IsFinished FROM `final projet`.player ORDER BY playerID DESC LIMIT 2;";
+
+                cmd = new MySqlCommand(query, con);
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    if ( s== null)
+                    {
+                        s = reader.GetString("IsFinished");
+                        counter1 = int.Parse(s);
+                        continue;
+                    }
+                    if (s2 == null)
+                    {
+                        s2 = reader.GetString("IsFinished");
+                        counter2 = int.Parse(s2);
+                        continue;
+                    }
+
+                    
+                    
+                }
+                if (counter1 + counter2 == 2)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+                
+
+
+            }
+            catch
+            {
+                Disconnect();
+                return false;
+            }
+
+
+
         }
         public string GetPlayerName(int playerId)
         {
