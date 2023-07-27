@@ -9,10 +9,6 @@ namespace WebAPIDemo.Controllers
 {
     public class ShowWinnerController : ApiController
     {
-        // GET api/<controller>
-       
-
-        // GET api/<controller>/5
         public string Get()
         {
             DatabaseManager dbMan = new DatabaseManager();
@@ -21,19 +17,6 @@ namespace WebAPIDemo.Controllers
             return res;
         }
 
-        // POST api/<controller>
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
-        }
+       
     }
 }

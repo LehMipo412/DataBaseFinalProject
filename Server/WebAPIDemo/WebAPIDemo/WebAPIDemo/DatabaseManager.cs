@@ -243,33 +243,7 @@ namespace WebAPIDemo
 
 
         }
-        public string GetPlayerName(int playerId)
-        {
-            try
-            {
-                Connect();
-                string query = "SELECT Name FROM Players WHERE PlayerID =" + playerId;
-                cmd = new MySqlCommand(query, con);
-                reader = cmd.ExecuteReader();
-                if (reader.Read())
-                {
-                    string name = reader.GetString("Name");
-                    Disconnect();
-                    return name;
-                }
-                else
-                {
-                    Disconnect();
-                    return null;
-                }
-            }
-            catch
-            {
-                Disconnect();
-                return null;
-            }
-            
-        }
+        
 
         public void GetQuestion(int QuestionID)
         {

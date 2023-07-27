@@ -9,7 +9,7 @@ namespace WebAPIDemo.Controllers
 {
     public class GetQuestionController : ApiController
     {
-        // GET api/<controller>/5
+        
         public Question Get(int id)
         {
             DatabaseManager dbman = new DatabaseManager();
