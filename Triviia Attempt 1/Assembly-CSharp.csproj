@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Flag.cs" />
     <Compile Include="Assets\Scripts\UpdatePlayer.cs" />
     <Compile Include="Assets\Scripts\AnAnswer.cs" />
+    <Compile Include="Assets\Scripts\showWinnerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -40,10 +40,10 @@ public class LoginPageDone : MonoBehaviour
                     CheckOtherConnections();
                     timer = 1;
                 }
-                else
-                {
-                    isSubmitted = false;
-                }
+                //else
+                //{
+                //    isSubmitted = false;
+                //}
             }
         }
         if (isSubmitted == true)

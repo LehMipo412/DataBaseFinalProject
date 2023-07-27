@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using MySql.Data;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
+using System;
 
 namespace WebAPIDemo
 {
@@ -116,42 +112,55 @@ namespace WebAPIDemo
         {
             string name1 = null;
             string name2 = null;
-            int score1 = 0;
-            int score2 = 0;
+            int score1 = -1;
+            int score2 = -1;
 
             try
             {
                 Connect();
 
-                string query = "SELECT Name FROM player ORDER BY PlayerID DESC LIMIT 2;";
+                string query = "SELECT Name FROM `final projet`.player ORDER BY PlayerID DESC LIMIT 2;";
 
                 cmd = new MySqlCommand(query, con);
                 reader = cmd.ExecuteReader();
-                if (name1 == null)
+                while (reader.Read())
                 {
-                    name1 = reader.GetString(0);
+                    if (name1 == null)
+                    {
+                        name1 = reader.GetString(0);
+                        continue;
+                    }
+                    if (name2 == null)
+                    {
+                        name2 = reader.GetString(0);
+                        continue;
+                    }
                 }
-                if (name2 == null)
-                {
-                    name2 = reader.GetString(0);
-                }
+                Disconnect();
+                Connect();
 
-                query = "SELECT Score FROM player WHERE Name="+name1+","+name2;
+                query = "SELECT Score FROM `final projet`.player ORDER BY PlayerID DESC LIMIT 2;";
 
                 cmd = new MySqlCommand(query, con);
                 reader = cmd.ExecuteReader();
 
-                if(score1 == 0)
+                while (reader.Read())
                 {
-                    score1 = reader.GetInt32(0);
+                    if (score1 == -1)
+                    {
+                        score1 = reader.GetInt32(0);
+                        continue;
+                    }
+                    if (score2 == -1)
+                    {
+                        score2 = reader.GetInt32(0);
+                        continue;
+                    }
                 }
-                if (score2 == 0)
+                if (score1>score2)
                 {
-                    score2 = reader.GetInt32(0);
-                }
-                if(score1>score2)
-                {
-                    return name1;
+                    return $"The winner who can now enter China is: {name1} with the score of {score1}." +
+                        $" better luck next time {name2}, your score was: {score2}";
 
                 }
                 else
@@ -159,11 +168,12 @@ namespace WebAPIDemo
 
                     if(score1<score2)
                     {
-                        return name2;
+                        return $"The winner who can now enter China is: {name2} with the score of {score2}." +
+                        $" better luck next time {name1}, your score was: {score1}"; ;
                     }
                     else
                     {
-                        return "Draw";
+                        return $"A draw with the score of {score2}";
                     }
 
                 }
@@ -307,19 +317,13 @@ namespace WebAPIDemo
         public void GetAnswers(int QuestionID)
         {
             Connect();
-            //string query = "SELECT AnswerText FROM answers WHERE ContainedQuestionID = " + QuestionID;
+           
             string query = "SELECT * FROM answers WHERE ContainedQuestionID = " + QuestionID;
             cmd = new MySqlCommand(query, con);
             reader = cmd.ExecuteReader();
             
                 while (reader.Read())
                 {
-                //for (int i = 0; i < reader.FieldCount; i++)
-                //{
-                //    ansArr[i] = reader.GetValue(i).ToString();
-                //}
-
-                //string mewo = reader.GetValue(1).ToString();
                 if (question.ans1 == null)
                 {
                     question.ans1 = reader.GetString("AnswerText");
@@ -345,10 +349,7 @@ namespace WebAPIDemo
                     question.answersID[3] = reader.GetInt32("AnswerID");
                     continue;
                 }
-                //question.ans1 = ansArr[0];
-                //question.ans2 = ansArr[1];
-                //question.ans3 = ansArr[2];
-                //question.ans4 = ansArr[3];
+                
             }
 
             Disconnect();
